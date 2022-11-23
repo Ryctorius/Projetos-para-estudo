@@ -19,3 +19,6 @@ while True:
     if eventos == 'Entrar':
         if valores['usuario'] == 'felipe' and valores['senha'] == '123456':
             print('Seja bem vindo!')
+        else:
+            print('Usuário e/ou senha incorretos')
+            
